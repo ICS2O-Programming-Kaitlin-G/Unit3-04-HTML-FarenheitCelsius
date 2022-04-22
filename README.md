@@ -1,1 +1,2 @@
 # Unit3-04-HTML-FarenheitCelsius
+[![GitHub's Super Linter](https://github.com/ICS2O-Programming-Kaitlin-G/Unit3-04-HTML-FarenheitCelsius/actions/workflows/main.yml/badge.svg)](https://github.com/ICS2O-Programming-Kaitlin-G/Unit3-04-HTML-FarenheitCelsius/actions)
