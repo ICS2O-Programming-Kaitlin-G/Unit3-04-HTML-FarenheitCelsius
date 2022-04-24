@@ -1,0 +1,22 @@
+/* Created by: Katie
+* Created on: April 2022
+* This CSS file defines the style for index.html
+* CS2O-Unit3-04-HTML-FahrenheitCelsius
+*/
+
+h1 {
+  background-color: cadetblue;
+  color: lightgoldenrodyellow;
+  padding: 25px;
+  border: 5px double darkblue;
+  border-radius: 12px;
+}
+
+p {
+  color: darkblue;
+  background-color: skyblue;
+}
+
+body {
+  background-color: lightgreen;
+}

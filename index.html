@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- ICS2O-Unit3-04-HTML-FahrenheitCelsius -->
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="This website contains the mathematic formula to convert the temperature measurement unit Fahrenheit into the temperature measurement unit Celsius, condensed into a digital computation device.">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Katie G">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css"> 
+    
+    <!-- For the Favicon on this page -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav/favicon-16x16.png">
+    <link rel="manifest" href="./fav/site.webmanifest">
+    
+    <!-- Google's MDL -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-light_blue.min.css" /> 
+    <title>Digital computation device specializing in the conversion of the temperature measurement unit Fahrenheit to the temperature measurement unit Celsius.</title>
+  </head>
+  <body>
+    <!-- Google's MDL -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <div class = "mdl-layout mdl-js-layout--fixed-header">
+    
+    <!-- Container for web page content -->
+    <main class = "mdl-layout__content" style = "padding-left:10px">
+
+      <!-- Header, more specifically the largest header possible, primarily for visual structural aesthetic. -->
+      <h1>Digital computation device specializing in the conversion of the temperature measurement unit Fahrenheit to the temperature measurement unit Celsius.</h1>
+      
+      <!-- Text outlining the function of the website -->
+      <p>This website contains a digital computation device, more commonly known as a calculator, which specializes in the timely conversion of the temperature measurement unit Fahrenheit to the temperature measurement unit Celsius. Compliance with the program will result in the swift and accurate deliberation and computation of the numerical value you have submitted to the program. </p>
+
+      <!-- Script lookup for Javascript, and the text field that permits the user to input the temperature measurement unit Fahrenheit so that it may be converted.-->
+      <script src="./js/script.js"></script>
+      <form action="javascript:calculateCelsiusClicked()">
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="fahrenheit">
+            <label class="mdl-textfield__label" for="fahrenheit">Please input the precise temperature in Fahrenheit.</label>
+            <span class="mdl-textfield__error">This input is not an accepted form of the unit of temperature measurement Fahrenheit.</span>
+          </div>
+        <br>
+      
+        <!-- A button, more specifically formatted using Google's MDL (Material Design Lite), which will submit the information submitted by the user in the above text field. -->
+        <button type="submit" onclick="calculateCelsiusClicked()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">
+          Please press this button to initiate the process.
+        </button>
+      </form>
+      <br>
+      
+      <!-- The results of the calculation will appear under this line of code, which utilizes the "div" function to display the results outlined in the corresponding Javascript file, found at /js/script.js. -->
+      <div id="converted-temperature"></div>
+    </main>
+    </div>
+  </body>
+</html>
